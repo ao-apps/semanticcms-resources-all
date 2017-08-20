@@ -13,9 +13,6 @@
 	<a href="https://docs.oracle.com/javase/6/docs/api/">
 		<img src="https://semanticcms.com/ao-badges/java-6.svg" alt="java: &gt;= 6" />
 	</a>
-	<a href="https://docs.oracle.com/javaee/6/api/">
-		<img src="https://semanticcms.com/ao-badges/javaee-6.svg" alt="java ee: &gt;= 6" />
-	</a>
 	<a href="http://semver.org/spec/v2.0.0.html">
 		<img src="https://semanticcms.com/ao-badges/semver-2.0.0.svg" alt="semantic versioning: 2.0.0" />
 	</a>

@@ -33,7 +33,7 @@ along with semanticcms-resources-all.  If not, see <http://www.gnu.org/licenses 
 		title="@{documented.name}"
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
-		datePublished="2017-08-04T19:34:17-0500"
+		datePublished="2017-08-19T16:47:42-0500"
 	>
 		<core:child page="changelog.jspx" />
 		<ao:include
@@ -42,7 +42,6 @@ along with semanticcms-resources-all.  If not, see <http://www.gnu.org/licenses 
 			arg.managementStatus="${currentPage.property.managementStatus}"
 			arg.packagingStatus="${currentPage.property.packagingStatus}"
 			arg.javaVersion="${currentPage.property.javaVersion}"
-			arg.javaeeVersion="${currentPage.property.javaeeVersion}"
 			arg.semanticVersioning="${currentPage.property.semanticVersioning}"
 			arg.license="${currentPage.property.license}"
 		/>
