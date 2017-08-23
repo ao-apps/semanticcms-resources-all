@@ -33,7 +33,7 @@ along with semanticcms-resources-all.  If not, see <http://www.gnu.org/licenses 
 		title="@{documented.name}"
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
-		datePublished="2017-08-19T16:47:42-0500"
+		datePublished="2017-08-22T18:37:12-0500"
 	>
 		<core:child page="changelog.jspx" />
 		<ao:include
@@ -60,6 +60,7 @@ along with semanticcms-resources-all.  If not, see <http://www.gnu.org/licenses 
 			<ul>
 				<li><core:link book="/resources/empty" page="/index.jspx" /></li>
 				<li><core:link book="/resources/filesystem" page="/index.jspx" /></li>
+				<li><core:link book="/resources/unavailable" page="/index.jspx" /></li>
 				<li><core:link book="/resources/union" page="/index.jspx" /></li>
 			</ul>
 		</section:section>

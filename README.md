@@ -32,6 +32,7 @@ Convenience POM to include most types of [SemanticCMS resources](https://semanti
 ## Modules Included
 * [SemanticCMS Resources Empty](https://semanticcms.com/resources/empty/)
 * [SemanticCMS Resources Filesystem](https://semanticcms.com/resources/filesystem/)
+* [SemanticCMS Resources Unavailable](https://semanticcms.com/resources/unavailable/)
 * [SemanticCMS Resources Union](https://semanticcms.com/resources/union/)
 
 ## Contact Us
