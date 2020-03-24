@@ -26,7 +26,7 @@ Convenience POM to include most types of [SemanticCMS resources](https://github.
 ## Project Links
 * [Project Home](https://semanticcms.com/resources/all/)
 * [Changelog](https://semanticcms.com/resources/all/changelog)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-resources-all%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.semanticcms/semanticcms-resources-all)
 * [GitHub](https://github.com/aoindustries/semanticcms-resources-all)
 
 ## Modules Included
