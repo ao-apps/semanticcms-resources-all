@@ -51,6 +51,7 @@ along with semanticcms-resources-all.  If not, see <http://www.gnu.org/licenses 
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- Runtime Direct -->
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-resources-empty</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
@@ -63,21 +64,42 @@ along with semanticcms-resources-all.  If not, see <http://www.gnu.org/licenses 
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-resources-union</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
+			<!-- Runtime Transitive -->
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-collections</artifactId><version>1.1.0${POST-SNAPSHOT}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId><version>4.5.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-net-types</artifactId><version>1.2.1${POST-SNAPSHOT}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-tlds</artifactId><version>1.1.3${POST-SNAPSHOT}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-resources</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
 	<dependencies>
+		<!-- Runtime Direct -->
 		<dependency>
 			<groupId>com.semanticcms</groupId><artifactId>semanticcms-resources-empty</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId><artifactId>semanticcms-resources-filesystem</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId><artifactId>semanticcms-resources-unavailable</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId><artifactId>semanticcms-resources-union</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 </project>
