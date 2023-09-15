@@ -102,23 +102,6 @@ along with semanticcms-resources-all.  If not, see <https://www.gnu.org/licenses
     </repository>
   </repositories>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
-        <configuration>
-          <usedDependencies>
-            <!-- Runtime Direct -->
-            <dependency>com.semanticcms:semanticcms-resources-empty</dependency>
-            <dependency>com.semanticcms:semanticcms-resources-filesystem</dependency>
-            <dependency>com.semanticcms:semanticcms-resources-unavailable</dependency>
-            <dependency>com.semanticcms:semanticcms-resources-union</dependency>
-          </usedDependencies>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-
   <dependencyManagement>
     <dependencies>
       <!-- Runtime Direct -->
